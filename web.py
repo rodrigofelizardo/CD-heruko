@@ -1,12 +1,12 @@
-import os
-from flask import Flask
+importação  os
+de  balão  import  Flask
 
-app = Flask(__name__)
+app  =  Balão ( __name__ )
 
-@app.route("/")
-def index():
-    return "Olá mundo!"
+@ app . rota ( "/" )
+def  index ():
+    retornar  "Priscila eu te amo!"
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host='0.0.0.0', port=port)
+se  __name__  ==  "__main__" :
+    port  =  int ( os . environ . get ( "PORT" , 5000 ))
+    app . executar ( host = '0.0.0.0' , porta = porta )
